@@ -39,5 +39,10 @@ echo"<br>";
 echo"Pajak: Rp." .$produk->pajak()."%";
 echo"<br>";
 
-echo"<br>";
-echo"Total Harga setelah pajak: Rp." .$produk->total();
+echo "stok:". $Produk->stok;
+echo"<br/>";
+
+echo "pajak:". $Produk->pajak() . "%";
+echo"<br/>";
+
+echo "Total harga setelah pajak: Rp. ". $Produk->total();
