@@ -26,7 +26,6 @@ class produk {
 $produk = new produk('P0001', 'Laptop','10000000', '5');
 
 
-
 //hasil
 echo"produk: Rp." .$produk->nama;
 echo"<br>";
